@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/kerry-space.github.com/static/css/main.117d3bd9.css",
+    "main.js": "/kerry-space.github.com/static/js/main.0faa3562.js",
+    "static/js/787.049792af.chunk.js": "/kerry-space.github.com/static/js/787.049792af.chunk.js",
+    "static/media/dev.jpg": "/kerry-space.github.com/static/media/dev.51ff665a5b617c3320aa.jpg",
+    "static/media/developer-animation.gif": "/kerry-space.github.com/static/media/developer-animation.28a03bbc524ca2a1ea08.gif",
+    "static/media/instagram.gif": "/kerry-space.github.com/static/media/instagram.324838a4453635b634e2.gif",
+    "static/media/team_spirit.svg": "/kerry-space.github.com/static/media/team_spirit.7b4d8003f8436de4105211215598d417.svg",
+    "static/media/website_builder.svg": "/kerry-space.github.com/static/media/website_builder.cf40c1f75ea80459fa52ddefd32171af.svg",
+    "static/media/power.png": "/kerry-space.github.com/static/media/power.9330f669eb4c5abe2b36.png",
+    "static/media/bussiness_websites.svg": "/kerry-space.github.com/static/media/bussiness_websites.55b682c21329755f38384bbab326302e.svg",
+    "static/media/engineering_team.svg": "/kerry-space.github.com/static/media/engineering_team.d6f2ef527be80a6091b5b96ade40c16d.svg",
+    "static/media/web_shopping.svg": "/kerry-space.github.com/static/media/web_shopping.ba6591907dd188b2750fb5a7d7f0688f.svg",
+    "static/media/build__app.svg": "/kerry-space.github.com/static/media/build__app.7cf275ff6124bcda7afacc341302c7ec.svg",
+    "static/media/icons-app-store.svg": "/kerry-space.github.com/static/media/icons-app-store.aca9a067c593b5a9f371546bbc141626.svg",
+    "static/media/icons-google-play.svg": "/kerry-space.github.com/static/media/icons-google-play.395d17019429f9b9b510795edde48acf.svg",
+    "index.html": "/kerry-space.github.com/index.html",
+    "main.117d3bd9.css.map": "/kerry-space.github.com/static/css/main.117d3bd9.css.map",
+    "main.0faa3562.js.map": "/kerry-space.github.com/static/js/main.0faa3562.js.map",
+    "787.049792af.chunk.js.map": "/kerry-space.github.com/static/js/787.049792af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.117d3bd9.css",
+    "static/js/main.0faa3562.js"
+  ]
+}
