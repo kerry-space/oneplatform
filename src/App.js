@@ -52,17 +52,17 @@ function App() {
         <div className="">
           {/*create all routes */}
           <Routes>
-            <Route exact path="/oneplatform" element={<Home />} />
-            <Route path="/oneplatform/service" element={<Service />} />
-            <Route path="/oneplatform/about" element={<About />} />
-            <Route path="/oneplatform/contact" element={<Contact />} />
-            <Route path="/oneplatform/jobs" element={<Jobs />} />
-            <Route path="/oneplatform/basic" element={<SmallBuss />} />
-            <Route path="/oneplatform/smallbuss" element={<BasicWebsite />} />
-            <Route path="/oneplatform/meduim" element={<MeduimBuss />} />
-            <Route path="/oneplatform/appwebsite" element={<AppWebsite />} />
-            <Route path="/oneplatform/support" element={<Support />} />
-            <Route path="/oneplatform/reportbug" element={<ReportBug />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/jobs" element={<Jobs />} />
+            <Route path="/basic" element={<SmallBuss />} />
+            <Route path="/smallbuss" element={<BasicWebsite />} />
+            <Route path="/meduim" element={<MeduimBuss />} />
+            <Route path="/appwebsite" element={<AppWebsite />} />
+            <Route path="/support" element={<Support />} />
+            <Route path="/reportbug" element={<ReportBug />} />
           </Routes>
           <Footer />
         </div>
