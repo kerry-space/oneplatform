@@ -1,0 +1,48 @@
+.about {
+  &_text_title {
+    img {
+      text-align: center;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 50px 1px 50px 150px;
+      --z-index: 1;
+
+      height: 464px;
+      width: 1023;
+    }
+
+    h1 {
+      font-family: sans-serif;
+      margin-bottom: 1px;
+      font-size: 100px;
+      margin-top: 20px;
+    }
+  }
+
+  &_container {
+    width: 1050px;
+    height: 600px;
+
+    &_title {
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 150px;
+        font-family: sans-serif;
+      }
+
+      p{
+        margin: 50px;
+      }
+    }
+
+    &_img {
+      width: 501.47px;
+      height: 611.13px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  html, body{
+    heigh: 100vh;
+    overflow: none;
+    
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  
+
+
+.main{
+   width:100%;
+  }
+  
+.sidebar{
+    width: 200px;
+    flex-Shrinking: 0;
+    background-color: rgba(22, 22, 22, 1);
+    heigh: 100%;
+    overflow: none;
+  }
+
+
+.menu-open{
+  position: fixed;
+  max-width: 400px;
+  margin: 0 auto;
+  z-index: 100;
+  transition: top 0.3s;
+  padding: 15px;
+  color: black;
+
+ 
+}
+
+.menu-btn:hover{
+  color: blue;
+}

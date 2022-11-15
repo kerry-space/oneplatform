@@ -1,0 +1,64 @@
+/*service section*/
+
+.service {
+
+  h1{
+    
+    color: black;
+    font-size: 28px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    width:500px;
+    margin-top: 100px;
+
+
+  
+  }
+
+
+    
+
+  
+
+  .service-content{
+    
+      
+     
+  }
+
+ 
+}
+
+/*serviceCard  section*/
+
+.card {
+  margin: 24px;
+
+  width: 384;
+  height: 536px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 2px 4px 0px;
+
+  &__btn {
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
+    color: #fff;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  }
+}
+
+.card:hover {
+  -webkit-box-shadow: 1px 0px 28px 0px rgba(48, 50, 50, 1);
+  -moz-box-shadow: 1px 0px 28px 0px rgba(48, 50, 50, 1);
+  box-shadow: 1px 0px 28px 0px rgba(48, 50, 50, 1);
+}
+
+
+

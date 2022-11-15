@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.mainpage{
+    position: relative;
+
+    &__bg__wrapper{
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .mainpagtext{
+        position: absolute;
+        max-width: 400px;
+        margin: 0 auto;
+        z-index: 100;
+
+        &__Text{
+  
+            font-size: 48px;
+            font-family: Tiempos Headline,serif;
+            text-align: center;
+            text-shadow: 0 4px 24px rgb(0 0 0 / 35%);
+            line-height: 1;
+            margin-bottom: 30px;
+            color: white;
+         
+            margin-bottom: 30px;
+            position: absolute;
+            top: -530px;
+            margin-left: 50px;
+        }
+        &__Text h1{ 
+            font-weight: 400;
+        }
+
+
+        &__service-btn{
+            background-color: #1e1e1e;
+            border-color: #1e1e1e;
+            color: #fff;
+            min-height: 60px;
+            width: 100%;
+            max-width: none;
+            font-weight: 700;
+            position: relative;
+            cursor: auto;
+            opacity: .8;
+            font-size: 15px;
+            position: relative;
+            padding: 20px 80px;
+            bottom: 370px;
+            margin-left: 50px;
+          
+            text-decoration: none;
+        }
+
+        &__service-btn:hover{
+            -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+            box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        } 
+
+    }
+    
+    .about-section {
+        h2{
+            color: blue;
+        }
+    }
+
+    .Lmore-btn:hover{
+        -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+        box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    }
+
+    .carousel-conatiner{
+        width: 100%;
+        height: 618px;
+       
+        padding: 100px;
+        margin-bottom: 30px;
+
+        .slide{
+            background-color: #1e1e1e;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//service card style
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* differenet media size*/
+
+@media (min-width: 900px){
+    .mainText {
+        max-width: 1280px;
+    }
+}
+
+
+@media (min-width: 900px){
+    .introText {
+        font-size: 60px;
+        width: 450px;
+        text-align: left;
+        margin-bottom: 40px;
+        line-height: 1.1;
+    }
+}
