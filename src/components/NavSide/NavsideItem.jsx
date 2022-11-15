@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import {FaBars} from "react-icons/fa"
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const NavsideItem = ({item}) => {
     
@@ -13,13 +14,13 @@ const NavsideItem = ({item}) => {
             <div className='sidebar-title'>
                 <span>
                     <i className={item.icon}/>
-                    <a href={item.path}>{item.title}</a>
+                    <Link to={item.path}>{item.title}</Link>
                 </span>
                 <i className="bi bi-chevron-up toggle-btn" onClick={() =>setOpen(!open)}></i>
             </div>
     
             <div className='sidebar-content'>
-            <a href={item.children[0].path}>{item.children[0].title}</a>
+            <Link to={item.children[0].path}>{item.children[0].title}</Link>
             </div>
         </div>
       );
@@ -29,7 +30,7 @@ const NavsideItem = ({item}) => {
             <div className='sidebar-title'>
                 <span>
                     <i className={item.icon}/>
-                   <a href={item.path}>{item.title}</a> 
+                   <Link to={item.path}>{item.title}</Link> 
                 </span>
             </div>
         </div>
