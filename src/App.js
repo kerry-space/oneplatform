@@ -52,7 +52,7 @@ function App() {
         <div className="">
           {/*create all routes */}
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/oneplatform.io" element={<Home />} />
             <Route path="/service" element={<Service />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
