@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oneplatform.io/static/css/main.117d3bd9.css",
-    "main.js": "/oneplatform.io/static/js/main.c425cd83.js",
+    "main.js": "/oneplatform.io/static/js/main.e6f5ffbb.js",
     "static/js/787.049792af.chunk.js": "/oneplatform.io/static/js/787.049792af.chunk.js",
     "static/media/dev.jpg": "/oneplatform.io/static/media/dev.51ff665a5b617c3320aa.jpg",
     "static/media/developer-animation.gif": "/oneplatform.io/static/media/developer-animation.28a03bbc524ca2a1ea08.gif",
@@ -17,11 +17,11 @@
     "static/media/icons-google-play.svg": "/oneplatform.io/static/media/icons-google-play.395d17019429f9b9b510795edde48acf.svg",
     "index.html": "/oneplatform.io/index.html",
     "main.117d3bd9.css.map": "/oneplatform.io/static/css/main.117d3bd9.css.map",
-    "main.c425cd83.js.map": "/oneplatform.io/static/js/main.c425cd83.js.map",
+    "main.e6f5ffbb.js.map": "/oneplatform.io/static/js/main.e6f5ffbb.js.map",
     "787.049792af.chunk.js.map": "/oneplatform.io/static/js/787.049792af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.117d3bd9.css",
-    "static/js/main.c425cd83.js"
+    "static/js/main.e6f5ffbb.js"
   ]
 }
