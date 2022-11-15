@@ -52,17 +52,17 @@ function App() {
         <div className="">
           {/*create all routes */}
           <Routes>
-            <Route exact path="/oneplatform.io" element={<Home />} />
-            <Route path="/oneplatform.io/service" element={<Service />} />
-            <Route path="/oneplatform.io/about" element={<About />} />
-            <Route path="/oneplatform.io/contact" element={<Contact />} />
-            <Route path="/oneplatform.io/jobs" element={<Jobs />} />
-            <Route path="/oneplatform.io/basic" element={<SmallBuss />} />
-            <Route path="/oneplatform.io/smallbuss" element={<BasicWebsite />} />
-            <Route path="/oneplatform.io/meduim" element={<MeduimBuss />} />
-            <Route path="/oneplatform.io/appwebsite" element={<AppWebsite />} />
-            <Route path="/oneplatform.io/support" element={<Support />} />
-            <Route path="/oneplatform.io/reportbug" element={<ReportBug />} />
+            <Route exact path="/oneplatform" element={<Home />} />
+            <Route path="/oneplatform/service" element={<Service />} />
+            <Route path="/oneplatform/about" element={<About />} />
+            <Route path="/oneplatform/contact" element={<Contact />} />
+            <Route path="/oneplatform/jobs" element={<Jobs />} />
+            <Route path="/oneplatform/basic" element={<SmallBuss />} />
+            <Route path="/oneplatform/smallbuss" element={<BasicWebsite />} />
+            <Route path="/oneplatform/meduim" element={<MeduimBuss />} />
+            <Route path="/oneplatform/appwebsite" element={<AppWebsite />} />
+            <Route path="/oneplatform/support" element={<Support />} />
+            <Route path="/oneplatform/reportbug" element={<ReportBug />} />
           </Routes>
           <Footer />
         </div>
