@@ -34,7 +34,7 @@ const Home = () => {
           One platform service
         </h1>
         <div className="mainpagtext__service-btn">
-          <a href="/service">CHOOSE SERVICE</a>
+          <Link to="service">CHOOSE SERVICE</Link>
         </div>
       </div>
 
