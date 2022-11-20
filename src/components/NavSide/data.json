@@ -7,27 +7,27 @@
     {
     "title": "SERVICE",
     "icon": "bi bi-bar-chart-steps",
-    "path": "/service",
+    "path": "service",
      "children": [
         {
             "title": "BasicWebsite",
             "icons": "",
-            "path": "/smallbuss"
+            "path": "smallbuss"
         },
         {
             "title": "SmallBussinessSite",
             "icons": "",
-            "path": "/basic"
+            "path": "basic"
         },
         {
             "title": "MediumBussinessSite",
             "icons": "",
-            "path": "/meduim"
+            "path": "meduim"
         },
         {
             "title": "App+Website",
             "icons": "",
-            "path": "/appwebsite"
+            "path": "appwebsite"
         }
     ]
      
@@ -35,34 +35,34 @@
     {
      "title": "ABOUT",
      "icon": "bi bi-file-earmark-person",
-     "path": "/about"
+     "path": "about"
      
      
     },
     {
      "title": "CONTACT",
      "icon": "bi bi-person-lines-fill",
-     "path": "/contact"
+     "path": "contact"
      
     },
     {
      "title": "jobs",
      "icon": "bi bi-hammer",
-     "path": "/jobs"
+     "path": "jobs"
      
     },
     
     {
      "title": "Support",
      "icon": "bi bi-question-circle",
-     "path": "/support"
+     "path": "support"
 
      
     },
     {
      "title": "Report Bug",
      "icon": "bi bi-bug",
-     "path": "/reportbug"
+     "path": "reportbug"
 
      
     }
