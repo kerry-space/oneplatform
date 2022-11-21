@@ -72,11 +72,5 @@
  }
 
 
- //media size
- @media (max-width: 500px){
-    .sidebar-items{
-    
-        background-color: blue;
-    }
- } 
+
 
