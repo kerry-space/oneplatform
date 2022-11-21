@@ -16,13 +16,14 @@
     }
 
 
-    .mainpagtext{
+    &__title-content{
         position: absolute;
         max-width: 400px;
         margin: 0 auto;
         z-index: 100;
+       
 
-        &__Text{
+        h1{
   
             font-size: 48px;
             font-family: Tiempos Headline,serif;
@@ -36,13 +37,13 @@
             position: absolute;
             top: -530px;
             margin-left: 50px;
+             font-weight: 400px;
+           
         }
-        &__Text h1{ 
-            font-weight: 400;
-        }
+     
 
 
-        &__service-btn{
+        .mainpage__service-btn {
             background-color: #1e1e1e;
             border-color: #1e1e1e;
             color: #fff;
@@ -58,7 +59,7 @@
             padding: 20px 80px;
             bottom: 370px;
             margin-left: 50px;
-          
+            
             text-decoration: none;
         }
 
@@ -86,7 +87,7 @@
         width: 100%;
         height: 618px;
        
-        padding: 100px;
+        padding: 40px;
         margin-bottom: 30px;
 
         .slide{
@@ -101,60 +102,69 @@
 
 
 
-
-
-
-
-
-
-
-
 //service card style
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* differenet media size*/
 
-@media (min-width: 900px){
-    .mainText {
-        max-width: 1280px;
-    }
+
+
+
+@media  (min-width: 500px){
+
+    .mainpage{
+        
+        
+        &__title-content{
+          h1{
+            
+          }
+          .mainpage__service-btn{
+            
+          }
+        }
+      .about-section{
+          display: flex;
+          flex-direction: row;
+          &__inner_container{
+              
+          }
+          &_intrPage{
+            h1{
+                font-size: large;
+            }
+          }
+        }
+
+        .about-section_intrPage{
+            padding: 0px;
+        }
+  
+     }
+  
 }
+@media (max-width: 500px) {
+    .mainpage{
 
-
-@media (min-width: 900px){
-    .introText {
-        font-size: 60px;
-        width: 450px;
-        text-align: left;
-        margin-bottom: 40px;
-        line-height: 1.1;
+        
+        &__title-content{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            left: 50px;
+            
+          h1{
+              font-size: 30px;
+             
+             
+          }
+          .mainpage__service-btn{
+              font-size: 20px;
+             margin: 2px;
+             padding: 15px;
+              
+          }
+        }
     }
 }

@@ -8,5 +8,43 @@
     background-color: black;
     color: white;
 
+    &__menu-app-down{
+        font-size: 60%;
+        &__appstore{
 
+        }
+
+        &__googleplay{
+
+        }
+    }
+
+    &_copright{
+     
+        margin-top: 16px;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+   .footer{
+    &__menu-app-down{
+        font-size: 60%;
+        &__appstore{
+
+        }
+
+        &__googleplay{
+
+        }
+    }
+
+    &_copright{
+        font-size: 60%;
+        margin-top: 16px;
+    }
+   
+   }
 }

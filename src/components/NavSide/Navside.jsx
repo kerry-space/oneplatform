@@ -10,9 +10,9 @@ import { AiOutlineClose } from "react-icons/ai";
 const Navside = ({isOpen, setIsOpen}) => {
   return (
 
-    <div className='sidebar rounded'>
-        <button className='close-btn' onClick={() =>setIsOpen(!isOpen)}><AiOutlineClose size={50} /></button>
-        {items.map((item,index) => <NavsideItem key={index} item={item}/>)
+    <div className='sidebar  '>
+       
+        {items.map((content,index) => <NavsideItem key={index}  item={{content,isOpen,setIsOpen}}/>)
 
         }
     </div>

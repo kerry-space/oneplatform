@@ -6,24 +6,25 @@ import googlePlay from "../images/icons-google-play.svg";
 const Footer = () => {
   return (
     <div className="footer d-flex flex-column  ">
-      <div className="menu-footer  ">
-        <div className="d-flex flex-row ">
-          <div className="mx-5  border-2 rounded">
-            <a href="" className="d-flex  mx-2">
-              <img src={appstore} />
+     
+      <div className="footer__menu-app-down d-flex flex-row ">
+          <div className="mx-5  border-2 rounded footer__menu-app-down__appstore">
+            <a href="/#" className="d-flex  mx-2">
+              <img src={appstore} alt="appstore" />
               Download on the <br />
                App Store
             </a>
           </div>
-          <div className=" border-2 rounded ">
-            <a href="" className="d-flex mx-2">
-              <img src={googlePlay} />
+
+          <div className=" border-2 rounded footer__menu-app-down__googleplay">
+            <a href="/#" className="d-flex mx-2">
+              <img src={googlePlay} alt="googlePlay" />
               Download on the <br />
               Google Play
             </a>
           </div>
-        </div>
       </div>
+
       <div className="footer_copright mt-8 justify-between ">
         <p>
           All Rights Reserved. <b>onePlatform</b>

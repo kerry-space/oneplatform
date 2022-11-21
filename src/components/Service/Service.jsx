@@ -23,7 +23,7 @@ const Service = () => {
       <div className="d-flex justify-content-center">
         <h1 className="text-center">Choose beteeen different types of <br/>Web Applications.</h1>
       </div>
-      <div className=" service-content">
+      <div className=" container d-flex justify-content-center ">
         <Row xs={1} md={2} className="g-4  mt-6 ">
           {
             serviceArr.map((item) => {

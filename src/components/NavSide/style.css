@@ -1,11 +1,15 @@
 .sidebar-items{
-    padding: .75em 1em;
+    padding: 2.9em;
     transition: background-color .15s;
     color: #fff;
     text-decorration: none;
-    display: block;
+    display: flex;
     border-bottom: 1px solid #fff;
+    justify-content:center;
+    align-items: center;
     
+    
+  
 }
 
 .sidebar-items:hover{
@@ -30,9 +34,7 @@
 .sidebar-title  .toggle-btn{
    cursor:pointer;
 }
-.sidebar-items.open .sidebar-title  .toggle-btn{
-   transform: rotate(180deg);
-}
+
 
 .sidebar-content{
     padding-top: .25em;
@@ -40,9 +42,7 @@
     overflow: hidden;
 }
 
-.sidebar-items.open .sidebar-content{
-    height: auto;
- }
+
 
  .close-btn{
     display: block;
@@ -60,13 +60,23 @@
 
  .sidebar{
     position: fixed;
+    width:100%;
+    height:100%;
     transition: top 0.3s;
-    padding: 15px;
-    margin: 10px;
+   padding: 0px;
+   marging:0px;
     color: black;
     z-index: 1000;
 
-    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    
  }
+
+
+ //media size
+ @media (max-width: 500px){
+    .sidebar-items{
+    
+        background-color: blue;
+    }
+ } 
+

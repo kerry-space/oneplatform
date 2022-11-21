@@ -8,7 +8,7 @@ import "./style.scss"
 const serviceCard = ({content}) => {
   const item = content;
   return (
-    <Card className="card" style={{width: "332,25px", height: "414px", rowGap: "0px"}}>
+    <Card className=" card" >
       <Card.Img variant="top" src={item.img} style={{width: "250px", height: "188px", padding: ""}}/>
       <Card.Body>
         <Card.Title>Card Title</Card.Title>

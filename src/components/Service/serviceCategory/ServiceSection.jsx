@@ -8,7 +8,7 @@ const Service = (props) => {
   const item = props.content;
   console.log(item)
   return (
-    <div className="container flex flex-xl-column cardWrapper  mb-5 justify-content-center mt-5">
+    <div className=" d-flex justify-content-center   mb-5 mt-5">
       <Card className="card" style={{width: "332px", height: "300px", margin: "0px", rowGap: "0px"}}>
         <Card.Img
           variant="top"

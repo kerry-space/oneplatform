@@ -7,30 +7,7 @@
     {
     "title": "SERVICE",
     "icon": "bi bi-bar-chart-steps",
-    "path": "service",
-     "children": [
-        {
-            "title": "BasicWebsite",
-            "icons": "",
-            "path": "smallbuss"
-        },
-        {
-            "title": "SmallBussinessSite",
-            "icons": "",
-            "path": "basic"
-        },
-        {
-            "title": "MediumBussinessSite",
-            "icons": "",
-            "path": "meduim"
-        },
-        {
-            "title": "App+Website",
-            "icons": "",
-            "path": "appwebsite"
-        }
-    ]
-     
+    "path": "service" 
     },
     {
      "title": "ABOUT",

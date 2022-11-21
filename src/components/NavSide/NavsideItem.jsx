@@ -3,39 +3,25 @@ import {FaBars} from "react-icons/fa"
 import "./style.css";
 import { Link } from "react-router-dom";
 
+
 const NavsideItem = ({item}) => {
     
-    const [open, setOpen] = useState(false);
-    console.log(item)
+  console.log(item.content.children)
+  
+ const {content,isOpen,setIsOpen} = item;
 
-  if(item.children){ 
-    return (
-        <div className={open ?'sidebar-items open': "sidebar-items" }>
-            <div className='sidebar-title'>
-                <span>
-                    <i className={item.icon}/>
-                    <Link to={item.path}>{item.title}</Link>
-                </span>
-                <i className="bi bi-chevron-up toggle-btn" onClick={() =>setOpen(!open)}></i>
-            </div>
-    
-            <div className='sidebar-content'>
-            <a href={item.children[0].path}>{item.children[0].title}</a>
-            </div>
-        </div>
-      );
-  }else{
+
     return(
-        <div className='sidebar-items'>
+        <div className={isOpen ?'sidebar-items': "sidebar-items"} >
             <div className='sidebar-title'>
                 <span>
-                    <i className={item.icon}/>
-                   <Link to={item.path}>{item.title}</Link> 
+                    <i className={content.icon}/>
+                   <Link onClick={() => setIsOpen(!isOpen)} to={content.path}>{content.title}</Link> 
                 </span>
             </div>
         </div>
     )
-  }
+  
 }
 
 export default NavsideItem;

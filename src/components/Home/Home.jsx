@@ -19,6 +19,7 @@ const Home = () => {
 
   return (
     <div className="mainpage">
+
       <div className=" mainpage__bg__wrapper">
         <img
           src={homeserv}
@@ -28,47 +29,45 @@ const Home = () => {
         ></img>
       </div>
 
-      <div className="mainpagtext">
-        <h1 className="mainpagtext__Text">
+      <div className="mainpage__title-content">
+        <h1>
           Welcome to <br />
           One platform service
         </h1>
-        <div className="mainpagtext__service-btn">
+        <div className="mainpage__service-btn  ">
           <Link to="service">CHOOSE SERVICE</Link>
         </div>
       </div>
 
       <div className="container mt-10  about-section">
-        <div className="row">
-          <div className="main-animation col-5 align-self-center">
-            <img
-              src={animationService}
-              alt="loading..."
-              style={{ width: "512px", height: "512px" }}
-            />
+        <div className="main-animation  align-self-center">
+          <img
+            src={animationService}
+            alt="loading..."
+            style={{ width: "512px", height: "512px" }}
+          />
+        </div>
+        <div className=" align-self-center mt-5  about-section_intrPage">
+          <h1 className="text-center font-sans text-2xl font-bold mb-8">
+            Who we are?
+          </h1>
+          <p className="px-4 pb-5">
+            We are Web app development team, we empowers our customer with
+            latest web-based technology to perform and manage your business like
+            a pro and act similarly to a mobile app.
+            <br /> <br />
+            We Build more than a website, We build Web Applications Basically,
+            web apps are entirely multi-platform. They provide users with an
+            entertaining exchange no matter the operating system, whether that
+            be <br />
+            Android, iOS, PC, etc. as long as users maintain an internet
+            connection.
+          </p>
+    
+           <div className="border-2 rounded bg-dark p-3 text-light d-flex justify-content-center  Lmore-btn">
+              <Link to="about"> Learn more</Link>
           </div>
-          <div className="main-textpargrah col-7 align-self-center px-5 py-5 mt-5">
-            <h1 className="text-center font-sans text-2xl font-bold mb-8">
-              Who we are?
-            </h1>
-            <p className="px-5 pb-5">
-              We are Web app development team, we empowers our customer with
-              latest web-based technology to perform and manage your business
-              like a pro and act similarly to a mobile app.
-              <br /> <br />
-              We Build more than a website, We build Web Applications Basically,
-              web apps are entirely multi-platform. They provide users with an
-              entertaining exchange no matter the operating system, whether that
-              be <br />
-              Android, iOS, PC, etc. as long as users maintain an internet
-              connection.
-            </p>
-            <div className=" d-flex justify-center ">
-              <div className="border-2 rounded bg-dark p-3 text-light Lmore-btn">
-                <a href="/about"> Learn more</a>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
 
